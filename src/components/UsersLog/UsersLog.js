@@ -68,7 +68,7 @@ const UsersLog = () => {
     const [dateValue, setDateValue] = React.useState(new Date());
     const changeDate=({value})=>{
         alert(value);
-        console.log("Date Value",value);
+        console.log("Date Value123",value);
 
     }
     return (
