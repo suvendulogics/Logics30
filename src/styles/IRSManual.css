@@ -1,0 +1,30 @@
+/* .manual-line{
+    width: 100%; 
+    height: 1px; 
+    background-color: #272626; 
+    margin: 8px 0; 
+} */
+.welcomehomes {
+    margin-left: 10px;
+    width: 87vw;
+    margin-top: 20px;
+  }
+.HeaderContainer{
+    font-size: 9.5pt;
+    width: 99%;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.FormTitle{
+    font-weight: bold;
+    font-size: 15pt;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    border-bottom: solid 1px black;
+    padding-right: 5px;
+}
+.list_style{
+    font-size: 13px;
+    margin: 5px;
+    font-weight: 500;
+}

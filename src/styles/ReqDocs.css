@@ -1,0 +1,76 @@
+.alignment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+.alignment_cont {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+.alignment_req {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+.label_name_req {
+  color: black;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font: 12px tahoma, arial, helvetica, sans-serif;
+}
+.drpodown_list_req {
+  width: 180px;
+  display: flex;
+  height: 28px;
+  border-color: #B5B8C8;
+  justify-content: center;
+}
+.reqdoc_inp{
+  width:180px;
+  margin-left:20px;
+  margin-right:20px;
+  height: 28px;
+}
+.text_area {
+  width: 290px;
+  height: 100px;
+  border-color: #B5B8C8;
+  display: flex;
+  justify-content: center;
+}
+.dashed-table {
+  border-style: dashed;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  margin-left: 15px;
+  width: 431px;
+  margin-bottom: 15px;
+}
+#lblHoldDate .k-input-solid {
+  width: 209px;
+}
+.main_div_cont {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media (min-width: 200px) and (max-width: 740px) {
+  .dashed-table {
+    width: 325px;
+  }
+  .main_div_cont {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}

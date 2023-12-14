@@ -1,0 +1,111 @@
+.alignment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+  }
+  .alignment_cont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 6px;
+  }
+  .label_name_service {
+    color: black;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+  }
+  .drpodown_list {
+    width: 210px;
+    height: 28px;
+    display: flex;
+    border-color: #B5B8C8;
+    justify-content: center;
+  }
+  .text_area {
+    width: 290px;
+    height: 100px;
+    border-color: #B5B8C8;
+    display: flex;
+    justify-content: center;
+  }
+  .dashed-table{
+    border-style: dashed;
+    margin-top: 10px;
+    background-color: #E0E0E0;
+    margin-left: 15px;
+    width: 431px;
+    margin-bottom: 15px;
+  }
+  .irs_div_title{
+    width: 90px;
+     font-size: 12px;
+     font-weight: 500;
+     margin-left:5px; 
+     font-family: tahoma;
+    color: black;
+  }
+  .main_div_irs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sub_div_irs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+ #lblHoldDate .k-input-solid{
+    width: 209px;
+  }
+  .main_div_cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .drop_irs{
+    width: 110px;
+    height: 25px;
+    border-color: #B5B8C8;
+  }
+  .date_irs{
+    width: 110px;
+    height: 25px;
+    border-color: #B5B8C8;
+  }
+  .irs_inp{
+    width: 110px;
+    height: 25px;
+    border-color: #B5B8C8;
+  }
+
+  #irsdecision .k-button-md.k-icon-button .k-button-icon.k-svg-icon > svg, .k-button-md.k-icon-button .k-button-icon.k-icon-md > svg{
+    color: black;}
+  @media (min-width: 200px) and (max-width: 740px) {
+    .dashed-table{
+     
+      width: 325px;
+      
+    }
+    .irs_inp{
+      width: 145px;
+    }
+    .date_irs{
+      width: 145px;
+    }
+    .drop_irs{
+      width: 145px;
+    }
+    .main_div_cont{
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }

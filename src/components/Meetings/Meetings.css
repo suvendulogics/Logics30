@@ -1,0 +1,81 @@
+.card_meeting{
+    border: 1px solid #99bbe8;
+    border-radius: 2px !important;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 250px;
+    width: 290px;
+    
+}
+.meetings_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+.card_meeting{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.custom-lines {
+    width: 100%; 
+    height: 1px; 
+    background-color: #99bbe8; 
+  }
+  .k-card-title{
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    color: #284879 !important;
+    display: flex;
+    height: 30px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .meetings_arrow{
+    color: #284879;
+  }
+  .meeting_details{
+    height: 180px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-image: url('https://sandbox.irslogics.com/Images/logicsconference.png');
+  }
+  .k-card-body{
+    padding-inline: 0 !important;
+    padding-block: 0 !important;
+  }
+  .join_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .join_txt{
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    margin-right: 5px;
+    color: #284879;
+  }
+  @media (min-width:260px) and (max-width:540px){
+    .meetings_main_div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  .card_meeting{
+    border: 1px solid #99bbe8;
+    border-radius: 2px !important;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 250px;
+    width: 290px;
+    
+}
+  }

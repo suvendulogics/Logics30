@@ -1,0 +1,69 @@
+#toolbar {
+    padding: 0.3em 0.3em;
+}
+#lblFormDescription {
+    white-space: normal !important;
+    font-size: 9pt !important;
+    font-weight: bold !important;
+    white-space: normal !important;
+    color: white;
+}
+
+.forms{
+    background-color: #5e6c7f;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esign{
+    background-color: #f1f1f1;
+    border: none;
+    color: #878787;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fullscreen{
+    background-color: #428BCA;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.print{
+    background-color: #fff;
+    border: none;
+    color: #878787;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80px;
+}
+.styleform{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#example_1 .k-animation-container .k-animation-container-relative{
+width: 100%;
+}
+.k-animation-container .k-animation-container-relative{
+width: 100%;
+}

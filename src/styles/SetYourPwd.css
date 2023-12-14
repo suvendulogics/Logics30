@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.password-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 480px;
+  width: 320px;
+}
+.password-input-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.password-input {
+  padding: 8px 30px 8px 30px;
+  font-size: 16px;
+  color: #989898;
+  background-color: #fafafa;
+  border: 1px solid #98989857;
+  border-radius: 5px;
+  width: 80%;
+  outline: none;
+}
+
+.copy_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #818181;
+}
+
+@media (max-width: 280px) {
+  .password-form {
+    margin-left: 60px;
+    margin-top: 70px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 480px;
+    width: 240px;
+  }
+  .password-input {
+    padding: 8px 30px 8px 30px;
+    font-size: 11px;
+    color: #989898;
+    background-color: #fafafa;
+    border: 1px solid #98989857;
+    border-radius: 5px;
+    width: 45%;
+    outline: none;
+  }
+  .copy_right {
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #818181;
+  }
+}
+
+@media (min-width: 281px) and (max-width: 328px) {
+  .password-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 480px;
+    width: 240px;
+  }
+  .password-input-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 329px) and (max-width: 390px) {
+  .password-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 480px;
+    width: 280px;
+  }
+  .password-input-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.lo_logo {
+  font-size: 5em !important;
+  color: rgb(83, 83, 83);
+  letter-spacing: -2px;
+  text-align: center;
+  padding-left: 2px;
+  margin-top: 40px;
+  font-family: "Biome W01 Light";
+}
+.g_logo {
+  color: crimson;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button_log {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+  height: 45px;
+  font-size: 18px;
+  background-color: #458cc8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 11px;
+}
+.lock_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.set_pwd {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+  color: #535353;
+  padding-left: 10px;
+}
+.fav_icon {
+  padding-left: 30px;
+  padding-top: 2px;
+}
+.inp_div2 {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.pwd_info {
+  color: #bfbfbf;
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #dcdcdc;
+}

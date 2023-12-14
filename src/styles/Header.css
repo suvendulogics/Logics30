@@ -1,0 +1,216 @@
+
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 23;
+
+    /* margin-left: 180px; */
+    /* justify-content: end; */
+    /* border: 1.5px solid #8db2e3; */
+    justify-content: end;
+    align-items: center;
+    background-color: #d0ddf0;
+    padding: 1px 5px;
+    color: black;
+    right: 10px;
+  }
+  
+  /* .search_div_mob {
+    width: 50vw;
+    z-index: 32;
+    height: 4vh;
+    position: relative;
+    transform: translateX(calc(50vw - 100%));
+    animation: 15s ease-out  alternate swingViewport;
+    right: 65vw;
+    margin-left: 19px;
+    bottom: 5px;
+    right: 20px;
+    top: 31px;
+  } */
+  .sliding{
+   
+      transition: all 4s ease-out;
+      left: 0;
+      right: 25px !important;
+   
+  }
+  .tabs-container{
+    display: flex;
+    justify-content: end;
+    /* border: 1.5px solid #8db2e3; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #d0ddf0;
+    padding: 1px 5px;
+    color: black;
+  }
+  .tabs-containers{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1.5px solid #8db2e3; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #d0ddf0;
+    padding: 1px 5px;
+    color: black;
+  }
+  .tab{
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid #8db2e3;
+    font-size: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .pro_details{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+  }
+  .round-icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #34527E; 
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height:22px;
+  }
+  .round-icons {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #428BCA; 
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height:40px;
+  }
+  
+  .drop_down_section{
+    display: flex;
+    flex-direction: row;
+  }
+  .drop_down_section:hover {
+    background-color: #e9e9e9; 
+  }
+  .pro_icon{
+    margin-top: 15px;
+  }
+  .fav_icons{
+    margin-top: 15px;
+    color: #1d1d1da6;
+    padding-left: 10px;
+  }
+  .pro_details_txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .profile_tab{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7ecf4;
+    border-radius: 4px;
+    border: 1.5px solid #8db2e3;
+  }
+  .profile-icon {
+    cursor: pointer;
+  }
+  
+  .welcome {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .name1 {
+    margin: 0 5px;
+    font-style: bold;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .name_dropdown{
+    font-size: 14px;
+    font-weight: 700;
+
+  }
+  .mail_dropdown{
+    font-size: 10px;
+  }
+  .dropdown_contents{
+    font-weight: 500;
+    margin:13px;
+    font-size: 13px;
+    color: #24292e;
+  }
+  .dropdown_contents:hover{
+    color: #428BCA;
+  }
+  
+  .dropdown {
+    /* position: fixed; */
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 5px;
+    z-index: 9;
+  }
+  
+  .dropdown p {
+    margin: 0;
+    cursor: pointer;
+  }
+  .custom-line {
+    width: 100%; 
+    height: 1px; 
+    background-color: #cbcbcb; 
+    margin: 8px 0; 
+  }
+  @media (max-width: 768px) {
+    .dropdown {
+      right: auto;
+      left: 20px;
+    }
+      
+  .welcome {
+    display: none;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .header{
+    display: none;
+    position: fixed;
+    top: 2px;
+    z-index: 90;
+    width: 95%;
+  }
+  
+  }
+  

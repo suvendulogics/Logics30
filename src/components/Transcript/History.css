@@ -1,0 +1,299 @@
+.tr_div {
+    width: 693px;
+    border: 3px solid #e4e4e4;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .newtr {
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+  .main_heading {
+    font-size: 10pt;
+    font-weight: bold;
+    color: black;
+  }
+  .custom-lines {
+    width: 100%;
+    height: 1px;
+    background-color: #191818;
+    margin-bottom: 5px;
+  }
+  .alignment_full {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .align_cols {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 5px;
+  }
+  .service_row {
+    display: flex;
+    flex-direction: row;
+  }
+  .alignment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+  }
+  .alignment_cont {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 6px;
+  }
+  .label_name {
+    color: black;
+    width: 77px;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+  }
+  .drpodown_list {
+    width: 210px;
+    height: 28px;
+    border-color: #B5B8C8;
+    display: flex;
+    justify-content: center;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+  }
+  .alignment_other {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+  }
+  .label_other {
+    color: black;
+    width: 77px;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+  }
+  .tax_liabilitys {
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    height: 24px;
+    width: 204px;
+    border-color: #B5B8C8;
+    outline: none;
+  }
+  .services-component {
+      border-left: 3px solid #e4e4e4;
+      border-right: 3px solid #e4e4e4;
+      border-bottom: 3px solid #e4e4e4;
+      display: flex;
+      margin-left: 5px;
+      flex-direction: column;
+      width: -webkit-fill-available;
+      border-radius: 4px;
+      background-color: #d8e6f9;
+    }
+  
+    .custom-liness {
+      width: 100%;
+      height: 1px;
+      background-color: #a2a2a2;
+    }
+    .content_fil {
+      display: flex;
+      width: 100%;
+      background-color: white;
+    }
+    .left-content_history {
+      border-right: 1px solid #ccc;
+      overflow: hidden;
+      display: flex;
+      background-color: white;
+      justify-content: start;
+      flex-direction: column;
+      align-items: start;
+      width: 15%;
+    }
+  
+    .section_out {
+      /* margin-top: 20px;  */
+      background-color: #5e6c7f;
+      width: 100%;
+      height: 30px;
+      color: white;
+      padding-left: 8px;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+    }
+    .text_name_out {
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+    }
+    .text_name_service {
+      font-size: 12px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:black;
+    }
+    .section_fil_services {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      border: 0.5px solid gainsboro;
+      width: 100%;
+      height: 25px;
+    }
+    .section_fil_services:hover {
+      background-color: #d8e6f9;
+      border: 1px solid #00000029;
+      height: 25px;
+    }
+  
+    .font_fil {
+      font-size: 12px;
+      margin-right: 5px;
+      margin-left: 8px;
+      width: 13px;
+    }
+  
+  .section_fil_services.selected {
+    background-color: #d8e6f9; 
+  }
+  
+  
+  
+  
+  #service_section .k-tabstrip .k-tabstrip-items{
+    overflow: hidden;
+  }
+  #service_section .k-tabstrip-top > .k-tabstrip-items-wrapper {
+    width: 27% !important;
+  }
+  .cont_div_mob{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 7px;
+    margin-left: 10px;
+  }
+  #services .k-tabstrip-content.k-active, .k-tabstrip > .k-content.k-active{
+  background-color: white;
+  }
+  .refresh_hist{
+    background-color: #d0e6fa;
+    color: white;
+    border: none;
+    height: 24px;
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  #AccountOverview_grid .k-column-title{
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .AccountOverview_grid_main{
+    display: flex;
+    justify-content: center;
+ 
+  }
+  .export_hist{
+    background-color: #428bca;
+    color: white;
+    border: none;
+    height: 24px;
+    width: 90px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  @media (min-width: 200px) and (max-width: 740px) {
+    .alignment {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 12px;
+    }
+    .drpodown_list {
+      width: 180px;
+      display: flex;
+      justify-content: center;
+    }
+    .tax_liabilitys {
+      border: 1px solid rgb(226, 226, 226);
+      border-radius: 3px;
+      border-color: #B5B8C8;
+      /* height: -moz-fit-content; */
+      height: 24px;
+      width: 167px;
+      /* height: fit-content; */
+      /* width: 160px; */
+    }
+    .align_cols {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+    .service {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+    }
+    .service_row {
+      display: flex;
+      flex-direction: column;
+    }
+    .alignment_other {
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      margin-bottom: 10px;
+      /* width: 130px; */
+      /* width: -webkit-fill-available; */
+    }
+    .label_other {
+      color: black;
+      width: 76px;
+      font: normal 12px tahoma, arial, helvetica, sans-serif;
+    }
+    .tr_div {
+      width: 95%;
+      /* border: none; */
+    }
+    .newtr {
+      width: 96%;
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+    .alignment_full{
+      margin-left: 10px;
+    }
+    .section_out{
+      height: 45px;
+      padding-left: 25px;
+    }
+    .services-component {
+      border-left: 3px solid #e4e4e4;
+      border-right: 3px solid #e4e4e4;
+      border-bottom: 3px solid #e4e4e4;
+      display: flex;
+      margin-left: 5px;
+      flex-direction: column;
+      width:50%;
+      border-radius: 4px;
+      background-color: #d8e6f9;
+      margin-top: 37px;
+    }
+  }
+  #service_section .k-button-md.k-icon-button .k-button-icon.k-svg-icon > svg, .k-button-md.k-icon-button .k-button-icon.k-icon-md > svg{
+    color: black;
+  }
+  

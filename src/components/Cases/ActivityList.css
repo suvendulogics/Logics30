@@ -1,0 +1,67 @@
+.activity-list-container {
+  width: 98%; 
+  margin-left: 5px;
+  /* margin: 0 auto; */
+}
+.activity-list-containers {
+    width: 180px; 
+    margin-left: 5px;
+   
+  }
+.activity-row {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.date {
+  flex: 1;
+}
+
+.icon {
+  flex: 1;
+}
+.custom-lines2 {
+  width: 1px;
+  height: 100%;
+  background-color: #c2c2c2;
+}
+.subject-initials {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 100%;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.comment {
+  flex: 4;
+  /* font-size: 12px; */
+  font-weight: 500;
+  white-space: normal;
+  font-size: 9pt;
+  color: #333;
+  font-family: Verdana;
+}
+.comments {
+    flex: 4;
+    /* font-size: 12px; */
+    font-weight: 500;
+    white-space: normal;
+    font-size: 6pt;
+    color: #333;
+    font-family: Verdana;
+  }
+  .dates {
+    flex: 1;
+    font-size: 10px;
+  }

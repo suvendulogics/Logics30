@@ -1,0 +1,67 @@
+.alignment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+.alignment_cont {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+.label_name_service {
+  color: black;
+  width: 120px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font: 12px tahoma, arial, helvetica, sans-serif;
+}
+.drpodown_list {
+  width: 210px;
+  height: 28px;
+  display: flex;
+  border-color: #B5B8C8;
+  justify-content: center;
+}
+.text_area {
+  width: 290px;
+  height: 100px;
+  border-color: #B5B8C8;
+  display: flex;
+  justify-content: center;
+}
+.dashed-table {
+  border-style: dashed;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  margin-left: 15px;
+  width: 431px;
+  margin-bottom: 15px;
+}
+#lblHoldDates .k-input-solid {
+  width: 210px;
+  height: 25px;
+  border-color: #B5B8C8;
+}
+.tax_inpt {
+  width: 210px;
+  border-color: #B5B8C8;
+  height: 28px;
+}
+#taxprep .k-button-md.k-icon-button .k-button-icon.k-svg-icon > svg,
+.k-button-md.k-icon-button .k-button-icon.k-icon-md > svg {
+  color: black;
+}
+@media (min-width: 200px) and (max-width: 740px) {
+  .dashed-table {
+    width: 325px;
+  }
+  .tax_inpt {
+    width: 170px;
+    height: 28px;
+  }
+  #lblHoldDates .k-input-solid{
+    width: 170px;
+  }
+}

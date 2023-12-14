@@ -1,0 +1,161 @@
+.row
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    padding: 4px 8px;
+    padding-bottom: 4.2px;
+    flex-wrap: wrap;
+}
+.k-grid-md .k-table-th
+{
+    height: 30px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+}
+
+.k-grid-md td, .k-grid-md .k-table-td
+{
+    font-weight: 100;
+}
+
+.k-column-title
+{
+    color: #333;
+    font-size: 12px;
+}
+/* .k-grid-md .k-table-th
+{
+
+} */
+.k-svg-i-sort-desc-small
+{
+    color: #428bca;
+    position: relative;
+    top: 8px;
+}
+
+span.k-icon.k-svg-icon.k-svg-i-sort-asc-small {
+    color: #428bca;
+    position: relative;
+    top: 8px;
+}
+
+span.k-icon.k-svg-icon.k-svg-i-sort-desc-small
+{
+    color: #428bca;
+    position: relative;
+    top: 8px;
+}
+#tab_content > div{
+    width: 100%;
+}
+.button_text
+{
+    color: #333;
+    font-size: 12px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+}
+.input_fields
+{
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+    border-color: #d8d8d8;
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+}
+.k-button-md.k-icon-button .k-button-icon {
+    margin-top: 2px;
+    position: relative;
+    left: -4px;
+    top: -1px;
+}
+/*-----------------------Common Code------------------------*/
+/*For Kendo Button*/
+button.k-button.k-button-md.k-button-solid.k-button-solid-base.k-rounded-md.log_buttons
+{
+    color: #FFF !important;
+    background-color: #428BCA !important;
+    border-color: #428BCA;
+    font-family: Arial, sans-serif;
+    width: 110px;
+    border-radius: 4px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+}
+/*------------------------COmmon Code End------------------------*/
+.datepickers
+{
+    width: 160px;
+}
+.internal-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buttons_column
+{
+    display: flex;
+    align-items: center;
+    min-width: 225px;
+}
+.from_date_column
+{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    min-width: 225px;
+}
+.to_date_column
+{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    min-width: 210px;
+}
+.dates_column
+{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    min-width: 210px;
+}
+.from_date_row,
+.to_date_row,.users_column,
+.log_type_column
+{
+    margin-right: 10px;
+}
+.users_column
+{
+    min-width: 343px;
+}
+.log_type_column
+{
+    width: 217px;
+}
+.users-internal-row
+{
+    display: flex;
+}
+span.k-textbox.k-input.k-input-md.k-input-solid.k-rounded-md
+{
+    width: 139px;
+    margin-left: 5px;
+    border-color: #d8d8d8;
+}
+td.k-table-td,th.k-table-th.k-header {
+    border-top: 0.1px solid #ccc !important;
+}
+tr.k-table-row.k-master-row:nth-child(1) > td.k-table-td {
+    border-top: 0px solid #ccc !important;
+}
+.k-grid-md .k-table-td {
+    height: 29px !important;
+}

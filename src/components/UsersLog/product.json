@@ -1,0 +1,43 @@
+[{
+    "userName": "Suvendu M",
+    "logType": "Save Case",
+    "createdDate": "2023-12-13T04:42:50.89",
+    "caseId": 290156,
+    "ip": "27.60.212.58",
+    "description": "Saved Case",
+
+    "firstName": null,
+    "isActive": true,
+    "lastName": null,
+    "logTypeId": "3",
+    "userId": 3143
+},
+{
+    "userName": "Suvendu M",
+    "logType": "Save Case",
+    "createdDate": "2023-12-13T04:42:50.89",
+    "caseId": 290156,
+    "ip": "27.60.212.58",
+    "description": "Saved Case",
+
+    "firstName": null,
+    "isActive": true,
+    "lastName": null,
+    "logTypeId": "3",
+    "userId": 3143
+},
+{
+    "userName": "Suvendu M",
+    "logType": "Save Case",
+    "createdDate": "2023-12-13T04:42:50.89",
+    "caseId": 290156,
+    "ip": "27.60.212.58",
+    "description": "Saved Case",
+
+    "firstName": null,
+    "isActive": true,
+    "lastName": null,
+    "logTypeId": "3",
+    "userId": 3143
+    
+}]

@@ -1,0 +1,80 @@
+#loantabdefault {
+    width: 75%;
+    min-height: 480px;
+    margin-left: 50px;
+    margin-top: 100px;
+    /* margin: auto; */
+    /* margin: 60px auto 50px auto; */
+    background-color: #fff;
+    color: #474C50;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+
+#loan_div .k-tabstrip-content.k-active, .k-tabstrip > .k-content.k-active{
+    background-color: white; 
+}
+.main-heading {
+    background: #D6E4F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 9px;
+    color: #213587;
+    font: normal bold 19px Arial;
+}
+.setpadding {
+    padding: 0px 20px 20px 20px;
+    margin: auto auto;
+}
+
+.subpanel {
+    font-family: arial;
+    text-align: center;
+}
+
+.sub-para1 {
+    color: #3f649aed;
+    font: normal bold 17px Arial;
+    padding: 23px 0px;
+}
+.sub-para2 {
+    font-size: 14px;
+    padding: 8px 0px;
+    line-height: 28px;
+}
+.sub-head {
+    color: #213587;
+    font: normal bold 20px/22px Arial;
+    padding: 23px 0px 8px 0px;
+}
+.sub-para3 {
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.textFont1 {
+    font-size: 10px;
+    line-height: 21px;
+}
+.textFont2 {
+    font-size: 15px;
+    line-height: 21px;
+}
+.sub-para-color {
+    color: #3f649aed;
+    font: normal bold 15px Arial;
+}
+.sub-text {
+    font: normal bold 16px/18px Arial;
+    color: #1C1E20;
+}
+@media screen and (min-width: 1024px){
+    .loanBanner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translate(0, 0%);
+        height: calc(100% - 54%);
+    }
+}
+

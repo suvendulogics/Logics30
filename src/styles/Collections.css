@@ -1,0 +1,96 @@
+.alignment_c {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .alignment_cont_c {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2px;
+  }
+  .alignment_cont_col {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 8px;
+  }
+  .label_name_service {
+    color: black;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+  }
+  .label_name_collect{
+    color: black;
+    width: 120px;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    font: 12px tahoma, arial, helvetica, sans-serif;
+  }
+
+  .drpodown_list_c {
+    width: 210px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    border-color: #B5B8C8;
+  }
+  .text_area {
+    width: 290px;
+    height: 100px;
+    display: flex;
+    border-color: #B5B8C8;
+    justify-content: center;
+  }
+  .dashed-table{
+    border-style: dashed;
+    margin-top: 10px;
+    background-color: #E0E0E0;
+    margin-left: 15px;
+    width: 431px;
+    margin-bottom: 15px;
+  }
+ #lblHoldDate .k-input-solid{
+    width: 209px;
+  }
+  .main_div_cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .text_area_c {
+    width: 290px;
+    border-color: #B5B8C8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  #collections .k-button-md.k-icon-button .k-button-icon.k-svg-icon > svg, .k-button-md.k-icon-button .k-button-icon.k-icon-md > svg{
+    color: black;}
+  @media (min-width: 200px) and (max-width: 740px) {
+    .dashed-table{
+     
+      width: 325px;
+      
+    }
+    .main_div_cont{
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  .drpodown_list_c{
+    width:185px;
+  }
+  .text_area_c {
+    width: 188px;
+  
+  }
+  }

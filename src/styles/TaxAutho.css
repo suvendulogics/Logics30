@@ -1,0 +1,122 @@
+#taxautho .k-column-title {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: tahoma;
+}
+#taxautho .k-toolbar-md{
+  padding: 2px;
+}
+.add_btn {
+  height: 21px;
+  width: 55px;
+  background-color: #458cc8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: tahoma;
+  margin-left: 5px;
+}
+.save_btn_add {
+  height: 25px;
+  width: 70px;
+  background-color: #458cc8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-family: tahoma;
+  margin-right: 10px;
+}
+.main_div_taxauth {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.pop_cont_tax {
+  background-color: #d8e6f9;
+  height: 440px;
+  width: 380px;
+  border: 3px solid #a7c8f6;
+  border-radius: 4px;
+  margin: 2px;
+}
+.add_item {
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 10px;
+  color: #15428b;
+}
+.dialog-content {
+  background-color: white;
+  height: 340px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+.dialog-actions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 10px;
+  padding-top: 8px;
+}
+.content_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 7px;
+}
+.text_name_tax {
+  font-size: 12px;
+  font-family: tahoma;
+  font-weight: 400;
+  color: black;
+  width: 100px;
+}
+.inp_div_tax {
+  height: 22px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 4px;
+  outline: none;
+}
+.main_div_cont{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media (min-width: 200px) and (max-width: 740px) {
+  .main_div_cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,36 @@
+.main_div_cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#penalty .k-grid .k-cell-inner > .k-link{
+    font-size: 13px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#identity .k-grid-header{
+height: 30px;
+
+}
+#penalty .k-grid-md td, .k-grid-md .k-table-td{
+    font-weight: 800; 
+}
+#penalty .k-grid .k-grid-header{
+    height: 26px;
+}
+#penalty .k-link .k-cursor-default{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main_grid{
+    width: 490px;
+}
+@media (min-width:200px) and (max-width:700px){
+    .main_grid{
+        width: 98%;
+    }
+}
