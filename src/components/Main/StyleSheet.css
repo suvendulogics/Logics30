@@ -754,4 +754,8 @@ button.k-button.k-button-md.k-button-solid.k-button-solid-base.k-rounded-md.log_
 {
   background-color: #3a7db8 !important;
 }
+#toolbar {
+  padding-top: 0px;
+  padding-bottom: 4px;
+}
 /*-----------------End---------------*/

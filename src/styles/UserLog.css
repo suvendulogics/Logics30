@@ -159,3 +159,7 @@ tr.k-table-row.k-master-row:nth-child(1) > td.k-table-td {
 .k-grid-md .k-table-td {
     height: 29px !important;
 }
+.log_type_column,.users_column,.from_date_column,.to_date_column,.buttons_column
+{
+    margin-top: 5px;
+}
